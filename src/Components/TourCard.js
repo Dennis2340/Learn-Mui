@@ -35,7 +35,7 @@ const theme = createTheme({
 
 function TourCard() {
   return (
-    <Grid item xs ={3}>
+    <Grid item xs ={12} sm={3} xl={3}>
       
         <Card  elevation={3}>
           <img className="img-elem" src="debbeMainEdit.jpg" alt="debbieSmiling"/>
