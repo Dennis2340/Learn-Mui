@@ -22,8 +22,8 @@ function App() {
       <BrowserRouter>
       <SearchAppBar/>
         <Routes>
-          <Route path="/" element ={<Home/>} />
-          <Route path="/:id" element={<Tour/>} />
+          {/* <Route path="/" element ={<Home/>} /> */}
+          <Route path="/" element={<Tour/>} />
         </Routes>
       </BrowserRouter>
     
