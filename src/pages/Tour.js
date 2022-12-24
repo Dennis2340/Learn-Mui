@@ -10,7 +10,7 @@ import ControlledAccordions from "../Components/Accordion"
 function Tour() {
   return (
     <div>
-      <Container sx={{width: 900}}>
+      <Container xs={12} sm={3} xl={3} sx={{width: 900}}>
         <Typography variant="h3" component="h1" marginTop={3}>
           For the love of BasketBall
         </Typography>
