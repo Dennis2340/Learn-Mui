@@ -20,7 +20,7 @@ function App() {
     return (
 
       <BrowserRouter>
-      <SearchAppBar/>
+      <SearchAppBar xs={12} md ={12} xl={12}/>
         <Routes>
           {/* <Route path="/" element ={<Home/>} /> */}
           <Route path="/" element={<Tour/>} />
