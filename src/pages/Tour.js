@@ -10,7 +10,9 @@ import ControlledAccordions from "../Components/Accordion"
 function Tour() {
   return (
     <div>
-      <Container xs={12} sm={3} xl={3} sx={{width: 900}}>
+       
+      <Container  sx={{width: 900}}>
+        <Grid item xs={12} sm={3} xl={3}>
         <Typography variant="h3" component="h1" marginTop={3}>
           For the love of BasketBall
         </Typography>
@@ -38,7 +40,7 @@ function Tour() {
           <ControlledAccordions/>
         </Box>
 
-
+        </Grid>
       </Container>
 
     </div>
